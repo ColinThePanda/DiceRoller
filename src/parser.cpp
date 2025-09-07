@@ -32,13 +32,17 @@ DiceRoll parse_dice(const std::string& input, const std::string& type_str) {
         roll.modifier = std::stoi(input.substr(modPos));
     }
 
-    std::map<std::string, RollType> roll_map = {
-        {"adv", RollType::ADVANTAGE},
-        {"dis", RollType::DISADVANTAGE}
-    };
+    if (!type_str.empty() && type_str != "none") {
+        std::map<std::string, RollType> roll_map = {
+            {"adv", RollType::ADVANTAGE},
+            {"dis", RollType::DISADVANTAGE}
+        };
 
-    if (roll_map.find(type_str) != roll_map.end()) {
-        roll.type = roll_map[type_str];
+        if (roll_map.find(type_str) != roll_map.end()) {
+            roll.type = roll_map[type_str];
+        } else {
+            throw std::invalid_argument("Invalid roll type: " + type_str);
+        }
     }
 
     return roll;

@@ -1,5 +1,6 @@
-# Prerequisites
-*.d
+# Build directories
+build/
+cmake-build-*/
 
 # Compiled Object files
 *.slo
@@ -30,3 +31,26 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
