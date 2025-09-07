@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 #include <map>
-#include "parser.h"
+#include "parser.hpp"
 
 DiceRoll parse_dice(const std::string& input, const std::string& type_str) {
     DiceRoll roll = DiceRoll{1, 6, 0, RollType::NONE};

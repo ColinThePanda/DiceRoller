@@ -1,5 +1,5 @@
 #include <random>
-#include "dice.h"
+#include "dice.hpp"
 
 static std::random_device rd;
 static std::mt19937 gen(rd());
