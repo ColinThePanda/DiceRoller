@@ -21,10 +21,10 @@ A command-line dice rolling utility written in C++ that supports standard dice n
 
 **Standard Rolls:**
 ```bash
-./DiceRoller "1d20" "none"      # Roll a 20-sided die
-./DiceRoller "2d6" "none"       # Roll two 6-sided dice and sum them
-./DiceRoller "1d8+3" "none"     # Roll a d8 and add 3
-./DiceRoller "3d4-2" "none"     # Roll three d4s and subtract 2
+./DiceRoller "1d20"      # Roll a 20-sided die
+./DiceRoller "2d6"       # Roll two 6-sided dice and sum them
+./DiceRoller "1d8+3"     # Roll a d8 and add 3
+./DiceRoller "3d4-2"     # Roll three d4s and subtract 2
 ```
 
 **Advantage/Disadvantage:**
