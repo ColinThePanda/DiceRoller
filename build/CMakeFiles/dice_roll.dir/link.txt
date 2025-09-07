@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\dice_roll.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\dice_roll.dir/objects.a @CMakeFiles\dice_roll.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe -Wl,--whole-archive CMakeFiles\dice_roll.dir/objects.a -Wl,--no-whole-archive -o dice_roll.exe -Wl,--out-implib,libdice_roll.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dice_roll.dir\linkLibs.rsp
