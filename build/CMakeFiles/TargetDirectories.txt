@@ -1,0 +1,3 @@
+C:/Users/cpoliti29/Desktop/VsCode/DiceRollerCpp/build/CMakeFiles/dice_roll.dir
+C:/Users/cpoliti29/Desktop/VsCode/DiceRollerCpp/build/CMakeFiles/edit_cache.dir
+C:/Users/cpoliti29/Desktop/VsCode/DiceRollerCpp/build/CMakeFiles/rebuild_cache.dir
